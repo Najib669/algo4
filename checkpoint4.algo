@@ -1,0 +1,9 @@
+   ALGORITHM algorithm_check
+   VAR
+    for(i = rightIndex ; i > 0 && array[i] > value; i--) {
+        println(i);
+        array[i + 1] = array[i];   
+   BEGIN
+    array[i] = value;
+   END
+    
